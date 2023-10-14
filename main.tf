@@ -3,7 +3,7 @@ terraform {
   
   backend "s3" {
     bucket         = "jack-pawsey-staging-terraform-state"
-    key            = "centralized-logging.tfstate"
+    key            = "calm.tfstate"
     region         = "eu-west-1"
     dynamodb_table = "staging-terraform-state-locks"
     encrypt        = true
